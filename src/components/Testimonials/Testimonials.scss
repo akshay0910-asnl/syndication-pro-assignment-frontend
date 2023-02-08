@@ -1,0 +1,17 @@
+.Testimonials{
+    position: relative;
+    &__top{
+       width: 50%;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto; 
+    }
+
+    .slick-initialized .slick-slide{
+        margin-left: 20px !important;
+    }
+
+    &__cards{
+        margin-top: 50px;
+    }
+}

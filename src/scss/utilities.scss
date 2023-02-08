@@ -1,0 +1,33 @@
+.bg-cover {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+button.action-button{
+	background-color: #0067f4;
+    border-radius: 50px;
+    color: #fff;
+    border-color: #0067f4;
+	display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0 32px;
+    font-size: 16px;
+    line-height: 46px;
+    cursor: pointer;
+    z-index: 5;
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    text-transform: uppercase;
+}

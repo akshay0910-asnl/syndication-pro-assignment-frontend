@@ -1,0 +1,102 @@
+.navbar {
+    padding-top: 20px;
+    display: flex;
+
+    &.sticky{
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    &__sections {
+        li {
+            margin: 0 16px;
+            position: relative;
+
+            &:hover {
+                a {
+                    color: #0067f4;
+
+                    &:before {
+                        opacity: 1;
+                        position: absolute;
+                        content: '';
+                        width: 8px;
+                        height: 4px;
+                        background-color: #0067f4;
+                        left: 50%;
+                        margin: 0 2px;
+                        bottom: 14px;
+                        transition: all .3s ease-out 0s
+                    }
+
+                    &:after{
+                        opacity: 1;
+                        left: auto;
+                        right: 50%;
+                        position: absolute;
+                        content: '';
+                        width: 8px;
+                        height: 4px;
+                        background-color: #0067f4;
+                        margin: 0 2px;
+                        bottom: 14px;
+                        transition: all .3s ease-out 0s;
+                    }
+                }
+            }
+
+            a {
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 700;
+                padding: 26px 0;
+                color: #121212;
+                text-transform: uppercase;
+                position: relative;
+                transition: all .3s ease-out 0s;
+                text-decoration: none;
+                background-color: transparent;
+            }
+        }
+    }
+
+    &__socials {
+        li {
+            margin: 0;
+            padding: 0 5px; 
+
+            span {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 16px;
+                font-weight: 700;
+                color: #6c6c6c;
+                line-height: 24px;
+                margin-right: 14px;
+            }
+
+            a {
+                margin-top: 16px;
+                font-size: 32px;
+                color: #6c6c6c;
+                -webkit-transition: all .3s ease-out 0s;
+                -moz-transition: all .3s ease-out 0s;
+                -ms-transition: all .3s ease-out 0s;
+                -o-transition: all .3s ease-out 0s;
+                transition: all .3s ease-out 0s;
+                text-decoration: none;
+            }
+        }
+    }
+}

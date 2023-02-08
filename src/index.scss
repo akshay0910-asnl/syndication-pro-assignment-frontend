@@ -1,0 +1,39 @@
+@import "./scss/utilities.scss";
+@import "https://fonts.googleapis.com/css?family=Poppins";
+@import "https://preview.uideck.com/items/start/assets/css/A.bootstrap.min.css+slick.css+LineIcons.css+magnific-popup.css+default.css,Mcc.oNtHEZjvES.css.pagespeed.cf.ftq7q6_7gP.css";
+
+body {
+	margin: 0;
+	font-family: "Poppins",sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+[class^="lni-"], [class*=" lni-"] {
+    font-family: 'LineIcons'!important;
+    
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/// Override the default bootstrap
+@media (min-width: 1400px) {
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		max-width: 1140px !important;
+	}
+}

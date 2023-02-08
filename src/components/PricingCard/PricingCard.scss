@@ -1,0 +1,131 @@
+.PricingCard {
+    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    padding: 24px 20px 50px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 30px;
+    flex: 1 1 auto; 
+
+    &:nth-of-type(1) {
+        margin-left: 0px;
+    }
+
+    &__priceBalloon {
+        position: absolute;
+        top: 0;
+        right: -78px;
+        width: 156px;
+    }
+
+    &__priceFlower {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 144px;
+    }
+
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        color: #121212;
+        position: relative;
+        padding-bottom: 8px;
+
+        //text-align: center;
+        &::before {
+            position: absolute;
+            content: '';
+            width: 72px;
+            height: 4px;
+            bottom: 0;
+            margin: 0 auto;
+
+        }
+
+        &.basic::before {
+            left: 0;
+            right: 0;
+            background-color: #2bdbdc;
+        }
+
+        &.pro::before {
+            right: auto;
+            left: 0;
+            background-color: #0067f4;
+        }
+
+        &.enterprise::before {
+            right: 0;
+            left: auto;
+            background-color: #0067f4;
+        }
+
+    }
+
+    &__pricing {
+        margin-top: 32px;
+    }
+
+    &__pricing-amount {
+        display: block;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 80px;
+        margin-top: 32px;
+        color: #121212;
+    }
+
+    &__pricing-time {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        color: #6c6c6c;
+        margin-top: 3px;
+    }
+
+    &__features {
+        margin-top: 40px;
+
+    }
+
+    &__featuresList {
+        list-style-type: none;
+        padding-left: 0px;
+
+        li {
+            font-size: 16px;
+            line-height: 24px;
+            color: #121212;
+            margin-top: 16px;
+
+            i {
+                color: #0067f4;
+                margin-right: 8px;
+
+            }
+        }
+    }
+
+    &__button {
+        margin-top: 42px;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__button-check {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__banner {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,53 @@
+.TestimonialsCard {
+    background-color: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    margin-left: 30px;
+    min-width: 300px;
+
+    &:nth-of-type(1) {
+        margin-left: 0px;
+    }
+
+    &__image {
+        img {
+            width: 90px;
+            border-radius: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    &__content {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #121212;
+        border-bottom: 1px solid #cbced1;
+        text-align: center;
+    }
+
+    &__meta {
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    &__meta-author {
+        font-size: 18px;
+        font-weight: 600;
+        color: #121212;
+    }
+
+    &__meta-designation {
+        font-size: 14px;
+        line-height: 24px;
+        color: #a4a4a4;
+        font-weight: 400;
+    }
+
+    
+}
