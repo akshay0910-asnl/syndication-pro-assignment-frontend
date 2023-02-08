@@ -3,18 +3,9 @@ import SectionArea from "../SectionArea/SectionArea";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import TestimonialsCard from "../TestimonialsCard/TestimonialsCard";
 import Testimonial from '../../types/testimonial';
-import Slider from "react-slick";
 import Carousel from "react-simply-carousel";
 import './Testimonials.scss';
 
-const settings = {
-    dots: false,
-    arrows: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-};
 
 interface TestimonialsProps {
     testimonials: Testimonial[]

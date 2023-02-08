@@ -7,12 +7,12 @@ const Footer: FunctionComponent = () => {
             <div className="container">
                 <div className="row">
                     <div className="footer-logo d-flex align-items-end">
-                        <a className="mt-30" href="#"><img src="https://preview.uideck.com/items/start/assets/images/logo.svg" alt="Logo" data-pagespeed-url-hash="3683179054" /></a>
+                        <a className="mt-30" href="/"><img src="https://preview.uideck.com/items/start/assets/images/logo.svg" alt="Logo" data-pagespeed-url-hash="3683179054" /></a>
                         <ul className="Footer__widget-social mt-30 mb-0">
-                            <li><a href="#"><i className="lni-facebook-filled"></i></a></li>
-                            <li><a href="#"><i className="lni-twitter-original"></i></a></li>
-                            <li><a href="#"><i className="lni-instagram-original"></i></a></li>
-                            <li><a href="#"><i className="lni-linkedin-original"></i></a></li>
+                            <li><a href="/"><i className="lni-facebook-filled"></i></a></li>
+                            <li><a href="/"><i className="lni-twitter-original"></i></a></li>
+                            <li><a href="/"><i className="lni-instagram-original"></i></a></li>
+                            <li><a href="/"><i className="lni-linkedin-original"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -26,9 +26,9 @@ const Footer: FunctionComponent = () => {
                             Company
                         </h6>
                         <ul className="Footer__links-link">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Career</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Contact</a></li>
+                            <li><a href="/">Career</a></li>
                         </ul>
                     </div>
                     <div className="Footer__links-group col-lg-3 col-md-4 col-sm-6">
@@ -36,9 +36,9 @@ const Footer: FunctionComponent = () => {
                             Products & Services
                         </h6>
                         <ul className="Footer__links-link">
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">Developer</a></li>
+                            <li><a href="/">Products</a></li>
+                            <li><a href="/">Business</a></li>
+                            <li><a href="/">Developer</a></li>
                         </ul>
                     </div>
                     <div className="Footer__links-group col-lg-3 col-md-4 col-sm-6">
@@ -46,9 +46,9 @@ const Footer: FunctionComponent = () => {
                             Help & Support
                         </h6>
                         <ul className="Footer__links-link">
-                            <li><a href="#">Support Center</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="/">Support Center</a></li>
+                            <li><a href="/">FAQ</a></li>
+                            <li><a href="/">Terms & Conditions</a></li>
                         </ul>
                     </div>
                     <div className="Footer__links-group col-lg-4 col-md-6 col-sm-7">
