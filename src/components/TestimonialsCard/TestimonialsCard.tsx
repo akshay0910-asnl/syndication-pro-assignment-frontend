@@ -11,7 +11,7 @@ const TestimonialsCard: FunctionComponent<TestimonialsCardProps> = (props) => {
     console.log(testimonial);
     return <div className="TestimonialsCard">
         <div className="TestimonialsCard__image">
-            <img src={testimonial.photoUrl || 'https://preview.uideck.com/items/start/assets/images/xauthor-4.jpg.pagespeed.ic.LIfPfIw1SL.webp'} />
+            <img src={testimonial.photoUrl || 'https://preview.uideck.com/items/start/assets/images/xauthor-4.jpg.pagespeed.ic.LIfPfIw1SL.webp'} alt="logo"/>
         </div>
         <div className="TestimonialsCard__content">{testimonial.description} </div>
         <div className="TestimonialsCard__meta">
