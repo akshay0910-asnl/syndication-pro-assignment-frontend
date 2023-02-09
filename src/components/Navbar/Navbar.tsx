@@ -6,7 +6,7 @@ const Navbar: FunctionComponent = () => {
 
     useEffect(() => {
         window.removeEventListener('scroll', onScroll);
-        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('scroll', onScroll);
         return () => window.removeEventListener('scroll', onScroll);
     }, []);
 
@@ -17,7 +17,7 @@ const Navbar: FunctionComponent = () => {
             document.getElementById("TopNavbar")?.classList.remove('sticky')
     }
 
-    return (<div className="navbar  d-flex sticky" id="TopNavbar">
+    return (<div className="navbar  d-flex" id="TopNavbar">
         <div className="container">
             <div className="navbar__brand">
                 <a className="mt-30" href="/"><img src="https://preview.uideck.com/items/start/assets/images/logo.svg" alt="Logo" data-pagespeed-url-hash="3683179054" /></a>
